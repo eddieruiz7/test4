@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.persona2Autonoma.persona2.CalculadoraTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-12T14:51:58" hostname="EDDIE-PC" time="0.025">
+  <properties/>
+  <testcase name="sumarNegativos()" classname="com.persona2Autonoma.persona2.CalculadoraTest" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.persona2Autonoma.persona2.Persona2ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-12T14:52:04" hostname="EDDIE-PC" time="1.117">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.persona2Autonoma.persona2.Persona2ApplicationTests" time="1.117"/>
+  <system-out><![CDATA[09:51:58.466 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.persona2Autonoma.persona2.Persona2ApplicationTests]: Persona2ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:51:58.698 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.persona2Autonoma.persona2.Persona2Application for test class com.persona2Autonoma.persona2.Persona2ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-07-12T09:51:59.398-05:00  INFO 11484 --- [persona2] [    Test worker] c.p.persona2.Persona2ApplicationTests    : Starting Persona2ApplicationTests using Java 21.0.2 with PID 11484 (started by esern in D:\Desarrollo\Java\SPRINGBOOT\personas2_autonoma)
+2024-07-12T09:51:59.402-05:00  INFO 11484 --- [persona2] [    Test worker] c.p.persona2.Persona2ApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-07-12T09:52:00.619-05:00  INFO 11484 --- [persona2] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-12T09:52:00.666-05:00  INFO 11484 --- [persona2] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 JPA repository interfaces.
+2024-07-12T09:52:01.432-05:00  INFO 11484 --- [persona2] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-12T09:52:01.809-05:00  INFO 11484 --- [persona2] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:18fb970a-8de7-4e1c-b852-c1d65d9d9a94 user=SA
+2024-07-12T09:52:01.813-05:00  INFO 11484 --- [persona2] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-12T09:52:01.913-05:00  INFO 11484 --- [persona2] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-12T09:52:02.079-05:00  INFO 11484 --- [persona2] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-12T09:52:02.154-05:00  INFO 11484 --- [persona2] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-12T09:52:02.737-05:00  INFO 11484 --- [persona2] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-12T09:52:03.487-05:00  INFO 11484 --- [persona2] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-12T09:52:03.495-05:00  INFO 11484 --- [persona2] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-12T09:52:03.819-05:00  WARN 11484 --- [persona2] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-12T09:52:04.640-05:00  INFO 11484 --- [persona2] [    Test worker] c.p.persona2.Persona2ApplicationTests    : Started Persona2ApplicationTests in 5.633 seconds (process running for 7.854)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\esern\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.17\e3c251a39dc90badaf71c83427ba46840f219d8d\byte-buddy-agent-1.14.17.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
